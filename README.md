@@ -84,3 +84,72 @@ Translated query outputs into business findings relating to pricing, discounts, 
 ### Analysis Workflow
 
 `Raw Data → Data Profiling → Transformation → Relational Database → SQL Analysis → Revenue Leakage Diagnosis → Business Recommendations`
+
+## Key Business Findings
+
+### 1. Strong Revenue Does Not Eliminate Profit Leakage
+
+The marketplace generated **₹62.83M in total sales revenue** against **₹30.32M in product costs**, resulting in **₹32.51M gross profit** before considering several additional sources of revenue leakage.
+
+This demonstrates why topline revenue alone is insufficient for evaluating marketplace performance.
+
+| Metric | Value |
+|---|---:|
+| Total Sales Revenue | ₹62.83M |
+| Total Product Cost | ₹30.32M |
+| Gross Profit | ₹32.51M |
+
+### 2. Electronics Leads Marketplace Profitability
+
+Electronics was the strongest-performing category, generating approximately **₹12.00M in sales** and **₹6.27M in profit**.
+
+Fashion followed with **₹11.50M in sales** and **₹5.78M in profit**.
+
+Despite healthy category-level profitability, the product-level analysis identified **71 loss-making product records**, showing that strong aggregate category performance can conceal underperforming products.
+
+### 3. Discounting Is Significant — But Not Automatically Unprofitable
+
+A total of **7,417 orders** used discounts, representing approximately **₹5.73M in total discount value**.
+
+However, discounted orders generated an average profit of **₹1,492.71 per order**, compared with **₹1,469.80 for non-discounted orders**.
+
+This suggests that discounting should not automatically be treated as a profitability problem. Discount effectiveness should instead be evaluated at product, category and customer level.
+
+### 4. Returns Create a Material Financial Impact
+
+The analysis identified **1,290 returned orders**, associated with approximately:
+
+- **₹3.69M in revenue lost**
+- **₹1.93M in profit lost**
+
+Return management therefore represents a significant opportunity for protecting marketplace profitability.
+
+The largest recorded return-reason group was **Unknown**, accounting for **242 returns and approximately ₹714.7K in lost revenue**. This indicates a data-quality and process-control issue in addition to the financial impact of returns.
+
+### 5. Payment Method Choice Affects Net Profit
+
+Payment processing fees vary materially across payment methods.
+
+| Payment Method | Fee Rate | Payment Fees |
+|---|---:|---:|
+| COD | 3.5% | ₹437.3K |
+| Card | 2.1% | ₹257.3K |
+| Wallet | 2.0% | ₹251.7K |
+| UPI | 1.2% | ₹152.1K |
+
+Among the valid payment methods analysed, **COD creates the highest payment-fee burden**, while **UPI has the lowest fee rate**.
+
+### 6. Multiple Leakage Sources Accumulate
+
+The revenue-leakage analysis identified substantial financial exposure across several operational areas:
+
+| Leakage Component | Estimated Impact |
+|---|---:|
+| Discounts | ₹4.57M |
+| Returns | ₹2.95M |
+| Payment Fees | ₹1.10M |
+| Logistics | ₹0.95M |
+
+Rather than being driven by a single issue, marketplace leakage is distributed across **commercial, customer-return, fulfilment and payment activities**.
+
+> **Key takeaway:** High sales performance can coexist with significant underlying leakage. Profitability improvement therefore requires targeted action across discounts, returns, logistics and payment processing rather than focusing solely on increasing revenue.
