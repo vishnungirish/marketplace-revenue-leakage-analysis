@@ -150,6 +150,10 @@ The revenue-leakage analysis identified substantial financial exposure across se
 | Payment Fees | ₹1.10M |
 | Logistics | ₹0.95M |
 
+Rather than being driven by a single issue, marketplace leakage is distributed across **commercial, customer-return, fulfilment and payment activities**.
+
+> **Key takeaway:** High sales performance can coexist with significant underlying leakage. Profitability improvement therefore requires targeted action across discounts, returns, logistics and payment processing rather than focusing solely on increasing revenue.
+
 ## Business Recommendations
 
 Based on the SQL analysis, the marketplace should focus on improving profitability through targeted interventions rather than pursuing revenue growth alone.
@@ -223,10 +227,6 @@ Based on the analysis, management attention should be prioritised as follows:
 **4. Shift payment mix toward lower-cost methods where practical**  
 **5. Monitor logistics-cost outliers and low-margin fulfilment**  
 **6. Strengthen data-quality controls for operational decision-making**
-
-Rather than being driven by a single issue, marketplace leakage is distributed across **commercial, customer-return, fulfilment and payment activities**.
-
-> **Key takeaway:** High sales performance can coexist with significant underlying leakage. Profitability improvement therefore requires targeted action across discounts, returns, logistics and payment processing rather than focusing solely on increasing revenue.
 
 ## Repository Structure
 
