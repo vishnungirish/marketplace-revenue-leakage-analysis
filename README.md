@@ -227,3 +227,35 @@ Based on the analysis, management attention should be prioritised as follows:
 Rather than being driven by a single issue, marketplace leakage is distributed across **commercial, customer-return, fulfilment and payment activities**.
 
 > **Key takeaway:** High sales performance can coexist with significant underlying leakage. Profitability improvement therefore requires targeted action across discounts, returns, logistics and payment processing rather than focusing solely on increasing revenue.
+
+## Repository Structure
+
+```text
+marketplace-revenue-leakage-analysis/
+│
+├── images/
+│   ├── ER Diagram.png
+│   └── README.md
+│
+├── sql/
+│   ├── database-setup/
+│   │   ├── 01_create_final_schema.sql
+│   │   ├── 02_create_raw_tables.sql
+│   │   ├── 03_import_data.sql
+│   │   ├── 04_profile_raw_data.sql
+│   │   ├── 05_transform_and_load.sql
+│   │   ├── 08_data_profiling_report.sql
+│   │   └── README.md
+│   │
+│   ├── business-analysis/
+│   │   ├── Task 01 - Revenue vs Profit Reality.sql
+│   │   ├── Task 02 - Category-Wise Sales & Profit.sql
+│   │   ├── Task 03 - Loss-Making Products.sql
+│   │   ├── ...
+│   │   ├── Task 14 - High-Risk Customers.sql
+│   │   ├── Task 15 - Executive Profitability Summary.sql
+│   │   └── README.md
+│   │
+│   └── README.md
+│
+└── README.md
