@@ -259,3 +259,34 @@ marketplace-revenue-leakage-analysis/
 │   └── README.md
 │
 └── README.md
+
+## How to Explore This Project
+
+For a quick review of the project:
+
+1. **Start with this README** for the business problem, key findings and recommendations.
+2. **Review the ER diagram** to understand how the marketplace datasets are related.
+3. Open [`sql/database-setup`](sql/database-setup) to review the database creation, data profiling and transformation workflow.
+4. Open [`sql/business-analysis`](sql/business-analysis) to review the SQL queries used to investigate profitability and revenue leakage.
+
+The repository separates **database preparation** from **business analysis**, allowing the analytical workflow to be followed from data preparation through to business insights and recommendations.
+
+## Data Source & Limitations
+
+### Data Source
+
+The dataset used in this project was provided as part of a **GUVI Business Analytics project** and represents a simulated e-commerce marketplace environment.
+
+The original source CSV files are not included in this repository. The repository instead focuses on the SQL database workflow, analytical queries, data model and business insights produced from the dataset.
+
+### Analytical Limitations
+
+The findings should be interpreted within the context of the available data and analytical definitions used in the project.
+
+- **Simulated dataset:** The analysis represents a marketplace case study and should not be interpreted as the performance of a real company.
+- **Revenue leakage definitions:** Different analytical tasks measure financial impact using different definitions. Discount value, return-related revenue loss, logistics costs and payment fees should therefore not automatically be treated as directly additive measures.
+- **Return-reason quality:** A significant number of returned orders were classified with an `Unknown` reason, limiting root-cause interpretation.
+- **Payment-method quality:** Invalid payment-method records were identified, indicating a source-data quality issue that should be investigated before production reporting.
+- **Association rather than causation:** The analysis identifies patterns and areas of financial exposure but does not establish that factors such as discounts or payment methods directly cause changes in profitability.
+
+These limitations were considered when developing the business recommendations presented in this project.
