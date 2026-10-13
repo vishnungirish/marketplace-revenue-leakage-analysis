@@ -259,6 +259,7 @@ marketplace-revenue-leakage-analysis/
 │   └── README.md
 │
 └── README.md
+```
 
 ## How to Explore This Project
 
