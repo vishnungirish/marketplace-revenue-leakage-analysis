@@ -150,6 +150,80 @@ The revenue-leakage analysis identified substantial financial exposure across se
 | Payment Fees | ₹1.10M |
 | Logistics | ₹0.95M |
 
+## Business Recommendations
+
+Based on the SQL analysis, the marketplace should focus on improving profitability through targeted interventions rather than pursuing revenue growth alone.
+
+### 1. Optimise Discounts Rather Than Reduce Them Across the Board
+
+Discounted orders generated slightly higher average profit per order than non-discounted orders, suggesting that discounts are not inherently value-destructive.
+
+**Recommended actions:**
+- Evaluate discount performance at product and category level.
+- Reduce promotions on products where discounts consistently compress margins.
+- Retain discounts that generate profitable incremental sales.
+- Introduce minimum-margin thresholds when designing promotional campaigns.
+
+### 2. Prioritise Return Reduction
+
+With **1,290 returned orders** associated with approximately **₹3.69M in lost revenue**, returns represent a significant profitability risk.
+
+**Recommended actions:**
+- Identify products and categories with persistently high return rates.
+- Investigate recurring return reasons and address product-description, quality or fulfilment issues.
+- Monitor customers displaying unusually high return behaviour.
+- Introduce a return-rate KPI at product and category level.
+
+### 3. Improve Return-Reason Data Quality
+
+The largest return-reason group was recorded as **Unknown**, representing **242 returns and approximately ₹714.7K in lost revenue**.
+
+Without reliable return-reason data, management has limited ability to identify and correct the operational causes of returns.
+
+**Recommended actions:**
+- Make return-reason capture mandatory where operationally feasible.
+- Replace unrestricted/manual entries with standardised reason codes.
+- Monitor missing or invalid return classifications as a data-quality KPI.
+
+### 4. Review Payment-Method Economics
+
+Among valid payment methods, **COD carried the highest processing fee rate at 3.5%**, compared with **1.2% for UPI**.
+
+**Recommended actions:**
+- Encourage adoption of lower-cost digital payment methods where commercially appropriate.
+- Evaluate payment-method profitability rather than transaction volume alone.
+- Review whether payment-provider fee structures can be renegotiated.
+- Investigate and correct transactions classified under invalid payment methods.
+
+### 5. Control Logistics Cost Outliers
+
+Logistics represents another source of profit leakage and should be evaluated relative to the value and margin of individual orders.
+
+**Recommended actions:**
+- Flag orders where logistics cost represents an unusually high percentage of sales.
+- Analyse high-cost orders by warehouse, product and fulfilment pattern.
+- Review fulfilment rules for low-margin orders with disproportionately high delivery costs.
+
+### 6. Manage Profitability at Product Level
+
+Category-level performance can hide individual loss-making products. The analysis identified **71 loss-making product records** despite positive overall marketplace profitability.
+
+**Recommended actions:**
+- Create a recurring loss-making product report.
+- Review pricing, product cost, discounts and fulfilment costs for underperforming products.
+- Consider repricing, renegotiating procurement costs or removing persistently unprofitable products.
+
+## Management Priorities
+
+Based on the analysis, management attention should be prioritised as follows:
+
+**1. Reduce avoidable returns and improve return-reason visibility**  
+**2. Identify and correct loss-making product economics**  
+**3. Optimise discount allocation rather than applying blanket reductions**  
+**4. Shift payment mix toward lower-cost methods where practical**  
+**5. Monitor logistics-cost outliers and low-margin fulfilment**  
+**6. Strengthen data-quality controls for operational decision-making**
+
 Rather than being driven by a single issue, marketplace leakage is distributed across **commercial, customer-return, fulfilment and payment activities**.
 
 > **Key takeaway:** High sales performance can coexist with significant underlying leakage. Profitability improvement therefore requires targeted action across discounts, returns, logistics and payment processing rather than focusing solely on increasing revenue.
