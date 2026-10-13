@@ -8,6 +8,13 @@ The analysis investigates four major sources of potential leakage: **discounts, 
 
 The project follows an end-to-end SQL workflow, including database creation, raw data profiling, data transformation, relational modelling, and business analysis.
 
+### Project Presentation
+
+For a concise executive summary of the analysis, findings and business recommendations:
+
+- [View the Project Presentation (PDF)](presentation/Marketplace_Revenue_Leakage_Analysis.pdf)
+- [Download the PowerPoint Presentation](presentation/Marketplace_Revenue_Leakage_Analysis.pptx)
+  
 ### Business Objective
 
 The objective is to move beyond topline sales and answer a more important business question:
